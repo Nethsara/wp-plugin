@@ -209,6 +209,9 @@ function notice_wc_city_select_activate() {
     printf( '<div class="error notice-error notice is-dismissible"><p>%s</p></div>', $message );
 }
 
+
+//Above this all are third party plugins, used to selecting the city,
+
 function apium_my_cities( $cities ) {
 
     $cities['LK'] = array(
